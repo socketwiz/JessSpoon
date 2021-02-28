@@ -3,6 +3,7 @@ import { faFacebookSquare } from '@fortawesome/free-brands-svg-icons';
 import { faTwitterSquare } from '@fortawesome/free-brands-svg-icons';
 import { faYoutubeSquare } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Helmet } from 'react-helmet';
 
 import JessspoonBridge from '../images/jessspoon-bridge.png';
 
@@ -10,6 +11,9 @@ import JessspoonBridge from '../images/jessspoon-bridge.png';
 const IndexPage = () => {
   return (
     <div className="min-h-screen bg-gray-900">
+      <Helmet>
+        <title>Jess Spoon</title>
+      </Helmet>
       <div className="relative overflow-hidden">
 
         <main>
