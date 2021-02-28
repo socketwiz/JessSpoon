@@ -28,23 +28,6 @@ const IndexPage = () => {
                   </button>
                 </div>
               </div>
-              <div className="pt-5 pb-6">
-                <div className="px-2 space-y-1">
-                  <a href="/" className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">Product</a>
-
-                  <a href="/" className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">Features</a>
-
-                  <a href="/" className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">Marketplace</a>
-
-                  <a href="/" className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">Company</a>
-                </div>
-                <div className="mt-6 px-5">
-                  <a href="/" className="block text-center w-full py-3 px-4 rounded-md shadow bg-indigo-600 text-white font-medium hover:bg-indigo-700">Start free trial</a>
-                </div>
-                <div className="mt-6 px-5">
-                  <p className="text-center text-base font-medium text-gray-500">Existing customer? <a href="/" className="text-gray-900 hover:underline">Login</a></p>
-                </div>
-              </div>
             </div>
           </div>
         </header>
