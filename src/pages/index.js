@@ -23,7 +23,7 @@ const IndexPage = () => {
                     </h1>
                     <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">Come with us on our journey as we combine our passion for music together with a mixture of blues and rock.</p>
 
-                    <div className="grid grid-cols-2 gap-8 md:grid-cols-4 lg:grid-cols-3">
+                    <div className="grid grid-cols-3 gap-8 md:grid-cols-6 lg:grid-cols-3">
                       <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                         <a className="social-icons" href="https://twitter.com/spoon_jess">
                           <FontAwesomeIcon icon={faTwitterSquare} size="1x" />
