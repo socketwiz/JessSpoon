@@ -1,15 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: "JessSpoon",
+    title: "JessSpoon"
   },
   plugins: [
-    "gatsby-plugin-sass",
+    "gatsby-plugin-postcss",
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
         trackingId: "G-XFZBPSSWWW",
-      },
+      }
     },
     "gatsby-plugin-react-helmet",
-  ],
+    "gatsby-plugin-fontawesome-css"
+  ]
 };
