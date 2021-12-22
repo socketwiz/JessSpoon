@@ -1,56 +1,41 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charSet="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-    <link href="/css/styles.css" rel="stylesheet">
-    <link href="/css/main.css" rel="stylesheet">
-    <title>Jess Spoon</title>
-    <script src="https://kit.fontawesome.com/1c8c85cfc3.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <div class="min-h-screen bg-gray-900">
-      <div class="relative overflow-hidden">
-        <main>
-          <div class="pt-10 bg-gray-900 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
-            <div class="mx-auto max-w-7xl lg:px-8">
-              <div class="lg:grid lg:grid-cols-2 lg:gap-8">
-                <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
-                  <div class="lg:py-24">
-                    <h1 class="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
-                      <span class="block">Jess Spoon</span>
-                    </h1>
-                    <p class="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">Come with us on our journey as we combine our passion for music together with a mixture of blues and rock.</p>
+{% extends "base.html" %}
 
-                    <div class="grid grid-cols-3 gap-8 md:grid-cols-6 lg:grid-cols-3">
-                      <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                        <a class="social-icons" href="https://twitter.com/spoon_jess">
-                          <i class="fab fa-twitter-square"></i>
-                        </a>
-                      </div>
-                      <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                        <a class="social-icons" href="https://www.facebook.com/jessspoonsound/">
-                          <i class="fab fa-facebook-square"></i>
-                        </a>
-                      </div>
-                      <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                        <a class="social-icons" href="https://www.youtube.com/channel/UC8w1V7z1ZyZXMs3lRYcJQrg">
-                          <i class="fab fa-youtube-square"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="mt-12 -mb-16 sm:-mb-48 lg:m-0 lg:relative">
-                  <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
-                    <img class="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="/images/jessspoon-bridge.png" alt="JessSpoon band on a bridge" />
-                  </div>
-                </div>
-              </div>
+{% block content %}
+<div class="pt-10 bg-gray-900 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
+  <div class="mx-auto max-w-7xl lg:px-8">
+    <div class="lg:grid lg:grid-cols-2 lg:gap-8">
+      <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
+        <div class="lg:py-24">
+          <h1 class="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
+            <span class="block">Jess Spoon</span>
+          </h1>
+          <p class="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">Come with us on our journey as we combine our passion for music together with a mixture of blues and rock.</p>
+
+          <div class="grid grid-cols-3 gap-8 md:grid-cols-6 lg:grid-cols-3">
+            <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+              <a class="social-icons" href="https://twitter.com/spoon_jess">
+                <i class="fab fa-twitter-square"></i>
+              </a>
+            </div>
+            <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+              <a class="social-icons" href="https://www.facebook.com/jessspoonsound/">
+                <i class="fab fa-facebook-square"></i>
+              </a>
+            </div>
+            <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+              <a class="social-icons" href="https://www.youtube.com/channel/UC8w1V7z1ZyZXMs3lRYcJQrg">
+                <i class="fab fa-youtube-square"></i>
+              </a>
             </div>
           </div>
-        </main>
+        </div>
+      </div>
+      <div class="mt-12 -mb-16 sm:-mb-48 lg:m-0 lg:relative">
+        <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
+          <img class="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="/images/jessspoon-bridge.png" alt="JessSpoon band on a bridge" />
+        </div>
       </div>
     </div>
-  </body>
-</html>
+  </div>
+</div>
+{% endblock content %}

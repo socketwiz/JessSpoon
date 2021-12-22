@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charSet="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link href="/css/styles.css" rel="stylesheet">
+    <link href="/css/main.css" rel="stylesheet">
+    <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+    <script src="https://kit.fontawesome.com/1c8c85cfc3.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    
+    <div class="min-h-screen bg-gray-900">
+      <div class="relative overflow-hidden">
+        <main>
+            {% block content %}
+                {{ page.content | safe }}
+            {% endblock content %}
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
