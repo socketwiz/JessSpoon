@@ -1,5 +1,9 @@
 on: push
 name: Build and deploy on push
+
+permissions:
+  contents: write
+
 jobs:
   build:
     name: shalzz/zola-deploy-action
@@ -13,4 +17,4 @@ jobs:
           PAGES_BRANCH: gh-pages
           BUILD_DIR: .
           BUILD_FLAGS: ""
-          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
