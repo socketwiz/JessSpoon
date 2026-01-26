@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tailwind -i ./src/tailwind.css -o ../static/css/styles.css --minify",
-    "build:dev": "tailwind -i ./src/tailwind.css -o ../static/css/styles.css",
-    "build:watch": "tailwind -i ./src/tailwind.css -o ../static/css/styles.css --watch",
+    "build": "tailwindcss -i ./src/tailwind.css -o ../static/css/styles.css --minify",
+    "build:dev": "tailwindcss -i ./src/tailwind.css -o ../static/css/styles.css",
+    "build:watch": "tailwindcss -i ./src/tailwind.css -o ../static/css/styles.css --watch",
     "postupdates": "npm install && npm audit fix",
     "test": "echo \"Error: no test specified\" && exit 1",
     "updates": "ncu -u"
@@ -15,9 +15,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "autoprefixer": "^10.4.14",
-    "postcss": "^8.4.24",
-    "tailwindcss": "^3.3.2"
+    "@tailwindcss/cli": "^4.0.0",
+    "tailwindcss": "^4.0.0"
   },
   "devDependencies": {
     "npm-check-updates": "^19.3.1"
